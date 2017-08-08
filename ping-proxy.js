@@ -31,7 +31,7 @@ if (typeof Object.assign != 'function') {
 }
 
 var defaults = {
-  secureProtocol: 'SSLv3_method',
+  secureProtocol: 'SSLv23_method',
 };
 
 function pingProxyAsync(_options, callback) {
